@@ -78,7 +78,8 @@ namespace PracticaCuatro.Servicios
 
         public void OrdenarProducto()
         {
-            string nombre = Microsoft.VisualBasic.Interaction.InputBox("Ingrese el Id del producto que desea " +
+            string nombre = Microsoft.VisualBasic.Interaction.InputBox("Ingrese el Id del producto " +
+                "que desea " +
                 "ordenar: ");
             if (int.TryParse(nombre, out int id))
             {

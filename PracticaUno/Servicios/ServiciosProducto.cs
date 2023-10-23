@@ -26,7 +26,7 @@ namespace PracticaUno.Servicios
             string nombre = Microsoft.VisualBasic.Interaction.InputBox("Ingrese el Nombre del Producto: ");
            if (string.IsNullOrEmpty(nombre))
            {
-              return null; // Opcional: puedes devolver null o algún otro valor para indicar que no se ingresó un nombre
+              return null;
            }
 
             return new Producto(nombre);
